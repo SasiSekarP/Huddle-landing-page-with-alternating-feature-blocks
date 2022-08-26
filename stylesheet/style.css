@@ -169,6 +169,7 @@ h2{
     display: flex;
     justify-content: center;
     text-align: center;
+    z-index: 1;
 }
 
 .small-box{
@@ -224,8 +225,38 @@ h2{
     gap: 20px;
 }
 
+.addressline{
+    display: flex;
+    gap: ;
+}
+
+.box-container1.box-container2,.box-container3{
+    height: 150px;
+}
+
 .box-container2{
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+.atribute:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.box-container3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container4-box-top{
+    display: flex;
+    gap: 2rem;
+    font-size: 25px;
+}
+
+.container4-box{
+    padding-top: 200px;
 }
