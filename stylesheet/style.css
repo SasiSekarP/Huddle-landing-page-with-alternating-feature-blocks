@@ -9,6 +9,10 @@
     margin: 0px;
 }
 
+body{
+    background-color: var(--bg-light-pink);
+}
+
 img{
     width: 100%;
     height: auto;
@@ -161,6 +165,7 @@ h2{
     font-family: var(--heading-font);
     font-size: 30px;
     padding: 3rem 2.8rem 3rem 8rem;
+    background-color: var(--bg-light-pink);
 }
 
 /* container 3 */
@@ -170,6 +175,8 @@ h2{
     justify-content: center;
     text-align: center;
     z-index: 1;
+    position: relative;
+    bottom: -100px;
 }
 
 .small-box{
@@ -183,6 +190,7 @@ h2{
     font-family: var(--heading-font);
     color: var(--heading-black);
     padding: 2rem 0rem;
+    background-color: var(--bg-light-pink);
 }
 
 .main-btn-1{
