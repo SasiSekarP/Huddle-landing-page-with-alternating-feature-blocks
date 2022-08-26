@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;900&family=Poppins:wght@600&display=swap');
+
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+:root{
+    --btn-dark-pink : hsl(315, 68%, 78%);
+    --btn-dark-pink-hover : hsl(322, 81%, 61%);
+    --bg-light-pink : hsl(193, 100%, 96%);
+    --heading-black : hsl(192, 100%, 9%);
+    --para-pink: hsl(208, 11%, 55%);
+    --para-black: color: hsl(228, 45%, 44%);
+    --para-font-size: 20px;
+    --heading-font: 'Poppins', sans-serif;
+    --body-font: 'Open Sans', sans-serif;
+}
+
+.container1{
+    background-image: url(./bg-hero-desktop.svg);
+}
+
+/* container1 row1*/
+
+.box-container{
+    width: 90%;
+    margin: auto;
+}
+
+.box-container .row1{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 0rem;
+}
+/* logo */
+.logo{
+    width: 240px;
+}
+
+/* top button */
+
+.top-btn{
+    padding: 1rem 4rem;
+    border-radius: 2rem;
+    border: 0px;
+    background-color: white;
+    box-shadow: 0px 1px 10px 0.1px var(--btn-dark-pink);
+    font-family: var(--body-font);
+    font-weight: 900;
+    color: var(--btn-dark-pink);
+}
+
+.top-btn:hover{
+    background-color: rgb(250, 176, 244);
+    color: white;
+}
+
+/* Container1 row2 left Box */
+
+.box-container .row2{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 4rem;
+}
+
+.left-box{
+    width: 500px;
+    height: 503px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.left-box h1{
+    font-family: var(--heading-font);
+    font-size: 42px;
+}
+
+.left-box p{
+    font-size: 18px;
+    font-family: var(--body-font);
+}
+
+.main-btn{
+    padding: 1.5rem 6rem;
+    border-radius: 2.5rem;
+    border: 0px;
+    background-color: var(--btn-dark-pink);
+    box-shadow: 0px 1px 10px 0.1px var(--para-pink);
+    color: var(--bg-light-pink);
+    font-family: var(--body-font);
+    font-weight: 900;
+}
+
+.main-btn:hover{
+    background-color: var(--btn-dark-pink-hover);
+    cursor: pointer;
+}
+
+.right-box{
+    width: 700px;
+}
+
+/* container2 row1*/
+
+.container2{
+    width: 88%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 10rem 0rem;
+}
+
+h2{
+    font-size: 30px;
+    font-family: var(--heading-font);
+    color: var(--heading-black);
+}
+
+.container2 p{
+    font-size: var(--para-font-size);
+    font-weight: 400;
+    font-family: var(--body-font);
+    color: var(--para-pink);
+}
+
+.container2 .right{
+    width: 420px;
+    height: auto;
+}
+
+.container2 .row .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    width: 550px;
+}
+
+/* container2 row */
+
+.container2 .row{
+    width: 100%;
+    height: auto;
+    box-shadow: 1px 1px 10px rgb(215, 169, 209);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1rem;
+    font-family: var(--heading-font);
+    font-size: 30px;
+    padding: 3rem 2.8rem 3rem 8rem;
+}
+
+/* container 3 */
+
+.container3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.small-box{
+    box-shadow: 1px 1px 10px rgb(215, 169, 209);
+    width: 800px;
+    height: 300px;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: var(--heading-font);
+    color: var(--heading-black);
+    padding: 2rem 0rem;
+}
+
+.main-btn-1{
+    padding: 2rem 9rem;
+    border-radius: 3rem;
+    font-size: 1.2rem;
+    border: 0px;
+    background-color: var(--btn-dark-pink);
+    box-shadow: 0px 1px 10px 0.1px var(--para-pink);
+    color: var(--bg-light-pink);
+    font-family: var(--body-font);
+    font-weight: 900;
+}
+
+.main-btn-1:hover{
+    background-color: var(--btn-dark-pink-hover);
+    cursor: pointer;
+}
+
+/* container 4 */
+
+.container4{
+    background-color: hsl(192, 100%, 9%);
+    color: hsl(193, 100%, 96%);
+    font-size: 10px;
+    height: 430px;
+}
