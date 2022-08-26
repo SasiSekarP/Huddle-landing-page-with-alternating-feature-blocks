@@ -206,6 +206,26 @@ h2{
 .container4{
     background-color: hsl(192, 100%, 9%);
     color: hsl(193, 100%, 96%);
-    font-size: 10px;
+    font-size: 18px;
     height: 430px;
+}
+
+.container4-box{
+    display: flex;
+    width: 82%;
+    margin: auto;
+    gap: 7rem;
+}
+
+.box-container1{
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.box-container2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
