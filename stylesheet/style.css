@@ -124,7 +124,7 @@ img{
     display: flex;
     flex-direction: column;
     gap: 3rem;
-    padding: 10rem 0rem;
+    padding: 10rem 0rem 0rem;
 }
 
 h2{
@@ -176,7 +176,7 @@ h2{
     text-align: center;
     z-index: 1;
     position: relative;
-    bottom: -100px;
+    bottom: -120px;
 }
 
 .small-box{
@@ -223,7 +223,7 @@ h2{
     display: flex;
     width: 82%;
     margin: auto;
-    gap: 7rem;
+    justify-content: space-between;
 }
 
 .box-container1{
@@ -235,7 +235,6 @@ h2{
 
 .addressline{
     display: flex;
-    gap: ;
 }
 
 .box-container1.box-container2,.box-container3{
@@ -246,6 +245,10 @@ h2{
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+.atribute{
+    color: aliceblue;
 }
 
 .atribute:hover{
@@ -267,4 +270,13 @@ h2{
 
 .container4-box{
     padding-top: 200px;
+}
+
+.fa-brands{
+    width: 1rem;
+}
+
+.fa-brands:hover{
+    font-size: 30px;
+    cursor: pointer;
 }
