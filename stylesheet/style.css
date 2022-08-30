@@ -415,8 +415,8 @@ h2{
     .container3 .small-box{
         width: 250px;
         height: auto;
-        padding: 10px 10px 15px;
-        gap: 1rem;
+        padding: 25px 10px 25px;
+        gap: 2rem;
     }
 
     .container3{
